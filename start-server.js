@@ -10,7 +10,7 @@ const server = httpServer.createServer({
   spa: true,
 });
 
-const port = 5555;
+const port = 1010;
 
 server.listen(port, (err) => {
   if (err) {
